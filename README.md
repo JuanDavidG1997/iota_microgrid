@@ -1,15 +1,18 @@
-# microgridDLT - IN PROGRESS
+# iota_microgrid - IN PROGRESS
 
-This repository contains the code for the proposed comparison of micro-markets
-based on different Distributed Ledger Technologies.
+This repository contains the code for the proposed microgrid based on IOTA
+Distributed Ledger Technology. Detailed explanation can be found at *url*.
 
 ## General description
-The simulations are carried out using Mosaik as co-simulation platform and a
-specialized library for the considered DLT.
+The simulator is based on IOTA + python libraries. All communication between
+agents are done based on the Tangle. Required libraries and versions can be
+found in *requirements.txt*. They can be installed locally, but the recomendation
+is to do it using a virtual environment.
+'''
+pip install -r requirements.txt
+'''
 
-1. Blockchain - Ethereum
-2. Directed Acyclic Graph - Pending
-3. Pending to add more DLTs
+The main file for the simulator execution is organized_tests.ipynb, but the
+code can be re-arrenged.
 
-### Credits
-1. Blockchain simulator is largely based on [this repo](https://github.com/Jonathan56-archives/mosaik_ethereum_demo).
+Pull requests are welcome.
